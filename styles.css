@@ -1,0 +1,147 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.hero
+{
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/03/Hogwarts-Castle.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 0;
+    margin: auto;
+    padding: 10px;
+}
+.title
+{
+ font-size: 32px;
+ background-color:#c38e70; 
+ margin-bottom: 10px;
+ font-weight: 700;
+ padding: 4px 8px;
+ border-radius: 5px;
+}
+.hero-desc
+{
+    font-size: 18.72px;
+    width: 355px;
+    background-color: #582f0e;
+    padding: 3px 6px;
+    margin-top: 0;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.activities
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap
+
+}
+#main-activities
+{
+   margin: auto;
+   color: #1D3557;
+   background-color: #ede0d4;
+   margin-top: 0;
+   padding: 10px;
+}
+.activity-title
+{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.activity-img
+{
+    border-radius: 50%;
+}
+.activity-desc
+{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.activity-para
+{
+    margin: 30px auto 0;
+    font-size: 16px;
+    font-weight: 400;
+    width:198px;
+    
+
+}
+.activity
+{
+    margin: 2px;
+    padding: 4px 8px;
+}
+
+.guide
+{
+   background-color:  #ffffff;
+   margin: auto;
+   padding: 10px 20px;
+}
+.card
+{
+    width: 400px;;
+    margin: auto;
+    background-color: #c38e70;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 8px 16px;
+    color:#1D3557;
+    border-radius: 10px;
+    margin-top: 40px;
+    border-bottom: 3px solid #582f0e;
+}
+.guide-title
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+.guide-desc
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.guide-name
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.guide-img
+{
+    width: 180px;
+}
+.card-content
+{
+    margin: 3px 6px;
+}
